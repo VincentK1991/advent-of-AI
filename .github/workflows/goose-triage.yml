@@ -28,7 +28,7 @@ jobs:
           GOOSE_PROVIDER: google
           GOOSE_MODEL: gemini-3-flash-preview
         run: |
-          goose run --extension github "Analyze the new issue #${{ github.event.issue.number }} in ${{ github.repository }}. 
+          goose run --with-builtin github,developer -t "Analyze the new issue #${{ github.event.issue.number }} in ${{ github.repository }}. 
           1. Use the github extension to read the issue content.
           2. Categorize it as 'urgent' (if it mentions safety, security, or cancellations) or 'low-priority' (if it is general feedback, praise, or general info).
           3. Apply the appropriate category label AND the 'winter-festival' label.
