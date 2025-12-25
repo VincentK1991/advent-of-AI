@@ -1,0 +1,22 @@
+export const items = [
+  { "id": 1, "item": "MacBook Pro (Silver)", "location": "Hot Cocoa Stand", "urgency": "High", "description": "Silver MacBook Pro. Both lost and found reports received.", "status": "Matched", "tags": ["electronics", "urgent"] },
+  { "id": 2, "item": "Tesla Key Fob", "location": "Parking Lot", "urgency": "High", "description": "Tesla key fob found in parking area.", "status": "Lost", "tags": ["keys", "urgent"] },
+  { "id": 3, "item": "Gold Wedding Ring", "location": "Storytelling Tent", "urgency": "Critical", "description": "Gold band wedding ring. Owner very distressed.", "status": "Matched", "tags": ["jewelry", "urgent"] },
+  { "id": 4, "item": "Child's Gray Backpack", "location": "Hot Cocoa Stand", "urgency": "Medium", "description": "Small kids backpack, grey/gray.", "status": "Matched", "tags": ["bags", "kids"] },
+  { "id": 5, "item": "Ray-Ban Sunglasses", "location": "Parking Lot", "urgency": "Low", "description": "Black frames, Ray-Ban brand.", "status": "Matched", "tags": ["accessories"] },
+  { "id": 6, "item": "Yellow Scarf", "location": "Ice Rink", "urgency": "Low", "description": "Bright yellow scarf found near skating area.", "status": "Matched", "tags": ["clothing"] },
+  { "id": 7, "item": "Red Striped Scarf", "location": "Fortune Teller", "urgency": "Low", "description": "Red scarf with white stripes.", "status": "Matched", "tags": ["clothing"] },
+  { "id": 8, "item": "Blue Mittens", "location": "Ice Rink", "urgency": "Low", "description": "Pair of blue mittens for both hands.", "status": "Matched", "tags": ["clothing"] },
+  { "id": 9, "item": "iPhone Charger", "location": "Storytelling Tent", "urgency": "Low", "description": "Lightning cable/charger.", "status": "Matched", "tags": ["electronics"] },
+  { "id": 10, "item": "Blue Metal Water Bottle", "location": "Hot Cocoa Stand", "urgency": "Low", "description": "Stainless steel blue bottle.", "status": "Matched", "tags": ["personal"] },
+  { "id": 11, "item": "Brown Teddy Bear", "location": "Ice Rink", "urgency": "High", "description": "Stuffed animal, child very upset.", "status": "Matched", "tags": ["kids", "urgent"] },
+  { "id": 12, "item": "Canon DSLR Camera", "location": "Parking Lot", "urgency": "High", "description": "Black Canon camera.", "status": "Matched", "tags": ["electronics", "urgent"] },
+  { "id": 13, "item": "White Pompom Beanie", "location": "Fortune Teller", "urgency": "Low", "description": "White knit hat with pom pom.", "status": "Matched", "tags": ["clothing"] },
+  { "id": 14, "item": "Green Gloves", "location": "Storytelling Tent", "urgency": "Low", "description": "Pair of green gloves.", "status": "Matched", "tags": ["clothing"] },
+  { "id": 15, "item": "Black Umbrella", "location": "Parking Lot", "urgency": "Low", "description": "Standard black umbrella.", "status": "Matched", "tags": ["personal"] },
+  { "id": 16, "item": "Pink Backpack", "location": "Ice Rink", "urgency": "Low", "description": "Large pink backpack.", "status": "Matched", "tags": ["bags"] },
+  { "id": 17, "item": "Prescription Glasses", "location": "Hot Cocoa Stand", "urgency": "Medium", "description": "Black frames, prescription lenses.", "status": "Matched", "tags": ["personal"] },
+  { "id": 18, "item": "Silver Bracelet", "location": "Ice Rink", "urgency": "Medium", "description": "Chain style silver bracelet.", "status": "Matched", "tags": ["jewelry"] },
+  { "id": 19, "item": "Red Wallet", "location": "Fortune Teller", "urgency": "Medium", "description": "Womens red wallet.", "status": "Matched", "tags": ["personal"] },
+  { "id": 20, "item": "Child's Blue Coat", "location": "Storytelling Tent", "urgency": "Low", "description": "Blue jacket, kids size.", "status": "Matched", "tags": ["clothing", "kids"] }
+];
