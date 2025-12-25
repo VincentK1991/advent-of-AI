@@ -13,15 +13,17 @@ jobs:
       - name: Setup Goose
         run: |
           # Install goose
-          curl -fsSL https://github.com/block/goose/releases/latest/download/goose-linux-amd64 -o goose
-          chmod +x goose
+          curl -fsSL https://github.com/block/goose/releases/latest/download/download_cli.sh | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Run Goose Triage
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GOOSE_PROVIDER: gemini
+          GOOSE_MODEL: gemini-1.5-flash
         run: |
-          ./goose run --extension github "Analyze the new issue #${{ github.event.issue.number }} in ${{ github.repository }}. 
+          goose run --extension github "Analyze the new issue #${{ github.event.issue.number }} in ${{ github.repository }}. 
           1. Use the github extension to read the issue content.
           2. Categorize it as 'urgent' (if it mentions safety, security, or cancellations) or 'low-priority' (if it is general feedback, praise, or general info).
           3. Apply the appropriate category label AND the 'winter-festival' label.
