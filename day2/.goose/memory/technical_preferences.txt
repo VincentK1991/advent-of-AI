@@ -1,0 +1,2 @@
+User prefers backend projects to be in Python 3.12 with uv, using pyproject.toml and 'uv venv -p 3.12' for virtual environment creation. For frontend, user prefers React with Vite.
+
